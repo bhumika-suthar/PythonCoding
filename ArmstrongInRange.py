@@ -12,7 +12,7 @@ for num in range(r1, r2):
         num1 //= 10
     if( sum == num):
         arr.append(num)
-print(f"The Armstrong numbers in the range {r1} and {r2} are : {arr}" )
+print(f"The Armstrong numbers in the range {r1} and {r2} are : {arr} ")
         
 
     
