@@ -1,8 +1,8 @@
 word = int(input('Enter the number of rows : '))
 
 i =0
-x = 0
-while(x <= word):
+x = word
+while(x <= 0):
     i = x
     while (i > 0):
             print(" * ", end='')
