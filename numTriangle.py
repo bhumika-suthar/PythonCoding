@@ -1,10 +1,13 @@
 word = int(input('Enter the number of rows : '))
 
-i =0
+
 x = 0
+j = 1
 while(x <= word):
+    i =0
     while (i < x):
-            print(" i ", end='')
+            print(f" {j} ", end='')
+            j += 1
             i += 1
     
     print("")
