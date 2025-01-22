@@ -7,6 +7,8 @@ def notSame(alpha, arr):
 
 def checkAnalog(word1,word2):
     arr = []
+    if(len(word1) != len(word2)):
+        print(f"The words {word1} and {word2} are not anagram")
     for alpha in word1:
         if (alpha in word2):
             if(notSame(alpha, arr)):
